@@ -16,3 +16,9 @@
     kind: ServiceAccount
     name: default
     namespace: petclinic-demo
+- op: add
+  path: /subjects/-
+  value:
+    kind: ServiceAccount
+    name: default
+    namespace: petclinic-uat
