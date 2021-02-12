@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: petclinic-dev
+  name: petclinic-test
   namespace: argocd
 spec:
   destination:
